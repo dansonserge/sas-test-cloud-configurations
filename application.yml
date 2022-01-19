@@ -4,5 +4,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: ${EUREKA_DEFAULT_ZONE: localhost:8761/eureka}
+      
   instance:
     hostname: ${EUREKA_HOSTNAME:localhost:8761}
